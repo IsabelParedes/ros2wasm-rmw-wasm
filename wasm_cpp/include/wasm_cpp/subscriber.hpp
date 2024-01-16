@@ -25,6 +25,12 @@ namespace wasm_cpp
 
             // TODO: add more funs when needed
 
+            static int stack_message(std::string msg);
+
+            static std::string m_msg;
+
+
+
     };
 
 } // namespace wasm_cpp
